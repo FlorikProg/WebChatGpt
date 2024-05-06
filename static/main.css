@@ -1,0 +1,48 @@
+html {
+    background-color: #212121;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+      
+   
+}
+
+input {
+    color: rgb(229, 229, 229);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 450px;
+    margin-left: 420px;
+    background-color: #303030;
+    border: none;
+    width: 470px;
+    height: 40px;
+    border-radius: 15px;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: sticky;
+}
+
+button {
+    color: rgb(229, 229, 229);
+    margin-left: 10px;
+    height: 40px;
+    width: 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: #303030;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#message {
+    padding-left: 420px;
+    padding-top: 10px;
+    color: rgb(229, 229, 229);
+    font-size: 25px;
+    width: 500px;
+}

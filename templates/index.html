@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=none">
+    <link rel="stylesheet" href="/static/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/ionicons@4.1.2/dist/css/ionicons.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Playpen+Sans:wght@500&family=Roboto+Condensed:ital,wght@0,300;1,100&family=Roboto+Mono:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika+Negative&display=swap" rel="stylesheet">
+    <title>Neuro🤖</title>
+</head>
+<body>
+
+    <form method="post">
+    <div>
+        <h2 id="message">You: {{ saved_text }}</h2>
+        <h2 id="message">Bot: {{ answer }}</h2>
+    </div>
+    <div><input type="text" name="textInput" id="input" placeholder="Введите текст..."><button type="submit">ок</div>
+    </form>
+    
+</body>
+</html>
